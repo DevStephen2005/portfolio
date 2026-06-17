@@ -36,7 +36,7 @@ function Skills() {
       skills: [
         "Git",
         "GitHub",
-        "Postman",
+        "Thunder Client",
         "VS Code",
       ],
     },
