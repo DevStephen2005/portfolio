@@ -33,7 +33,7 @@ function Projects() {
         "Modern responsive developer portfolio showcasing projects, skills, certifications, and contact information.",
       tech: ["React", "Tailwind CSS", "Vercel"],
       github: "https://github.com/DevStephen2005/portfolio",
-      live: "YOUR_LIVE_LINK",
+      live: "https://devstephen2005.github.io/portfolio/",
     },
   ];
 
