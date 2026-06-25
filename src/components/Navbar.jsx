@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="bg-slate-900 text-white px-6 py-4 sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#">
-          <h1 className="text-2xl font-bold text-blue-400">Stephen Joseph</h1>
+          <h1 className="text-2xl font-bold text-blue-400">Stephen J</h1>
         </a>
 
         <button

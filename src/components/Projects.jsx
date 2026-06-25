@@ -1,9 +1,8 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import expenseTrackerImg from "../assets/images/expense_img.png";
-import resumeBuilderImg from "../assets/images/ai_resume_img.png";
-import portfolioImg from "../assets/images/portfolio_img.png";
-
+import gymLandingImg from "../assets/images/gym_landing.png";
+import portfolioImg from "../assets/images/portfolio_i2.png";
 
 function Projects() {
   const projects = [
@@ -18,13 +17,13 @@ function Projects() {
     },
 
     {
-      title: "AI Resume Builder",
-      image: resumeBuilderImg,
+      title: "Gym Landing Page",
+      image: gymLandingImg,
       description:
-        "AI-powered resume builder that generates professional resumes, improves content using AI, and exports resumes as PDF.",
-      tech: ["React", "Node.js", "MongoDB", "OpenAI API", "Tailwind CSS"],
-      github: "YOUR_GITHUB_LINK",
-      live: "YOUR_LIVE_LINK",
+        "Modern and responsive gym website featuring membership plans, trainer profiles, fitness programs, testimonials, and contact sections designed to increase gym sign-ups.",
+      tech: ["React", "Tailwind CSS", "JavaScript", "Framer Motion", "Vite"],
+      github: "https://github.com/DevStephen2005/gym-landing",
+      live: "https://gym-landing-page-web.netlify.app/",
     },
 
     {
@@ -33,7 +32,7 @@ function Projects() {
       description:
         "Modern responsive developer portfolio showcasing projects, skills, certifications, and contact information.",
       tech: ["React", "Tailwind CSS", "Vercel"],
-      github: "YOUR_GITHUB_LINK",
+      github: "https://github.com/DevStephen2005/portfolio",
       live: "YOUR_LIVE_LINK",
     },
   ];

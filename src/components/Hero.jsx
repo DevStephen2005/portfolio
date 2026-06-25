@@ -12,7 +12,7 @@ function Hero() {
       />
 
       <h5 className="text-4xl md:text-5xl font-bold mb-4">
-        Hi, I'm Stephen Joseph
+        Hi, I'm Stephen J
       </h5>
 
       <p className="text-blue-600 font-semibold mb-2 md:text-3xl">

@@ -13,7 +13,7 @@ function About() {
         <div className="bg-white rounded-2xl shadow-md p-8">
 
           <p className="text-lg text-gray-700 leading-8 mb-6">
-            I'm Stephen Joseph, "Computer Science and Engineering" student and aspiring
+            I'm Stephen J, "Computer Science and Engineering" student and aspiring
             MERN Stack Developer. I enjoy building
             modern web applications and solving
             real-world problems through technology.
