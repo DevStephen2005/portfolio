@@ -11,9 +11,7 @@ function Hero() {
         className="w-44 h-44 rounded-full shadow-lg mb-6 border-4 border-blue-500"
       />
 
-      <h5 className="text-4xl md:text-5xl font-bold mb-4">
-        Hi, I'm Stephen J
-      </h5>
+      <h5 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Stephen J</h5>
 
       <p className="text-blue-600 font-semibold mb-2 md:text-3xl">
         Full Stack Developer (MERN)
@@ -55,22 +53,15 @@ function Hero() {
       <div className="flex gap-4 mb-8">
         <a href="#projects">
           <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition cursor-pointer">
-          View Projects
-        </button>
+            View Projects
+          </button>
         </a>
-        
 
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           download
-          className="
-      border border-blue-600
-      text-blue-600
-      px-6 py-3
-      rounded-lg
-      hover:bg-blue-600
-      hover:text-white
-      transition">
+          className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition"
+        >
           Download Resume
         </a>
       </div>
